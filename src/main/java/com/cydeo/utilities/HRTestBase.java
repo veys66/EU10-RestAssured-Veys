@@ -9,11 +9,11 @@ public abstract class HRTestBase {
     @BeforeAll
     public static void init(){
         //save baseurl inside this variable so that we dont need to type each http method.
-        baseURI = "http://3.216.30.92:1000/ords/hr";
+        baseURI = "http://18.212.218.144:1000/ords/hr";
 
         //get ip address from configuraitons
-        String dbUrl = "jdbc:oracle:thin:@54.205.239.177:1521:xe";
-        String dbUsername = "hr";
+        String dbUrl = "jdbc:oracle:thin:@18.212.218.144:1521:XE";
+        String dbUsername = "HR";
         String dbPassword = "hr";
 
       //  DBUtils.createConnection(dbUrl,dbUsername,dbPassword);
