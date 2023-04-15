@@ -12,7 +12,7 @@ public abstract class SpartanTestBase {
         //save baseurl inside this variable so that we dont need to type each http method.
         baseURI = "http://3.216.30.92:8000";
 
-        String dbUrl = "jdbc:oracle:thin:@3.216.30.92:1521:XE";
+        String dbUrl = "jdbc:oracle:thin:@3.216.30.92:1521:xe";
         String dbUsername = "SP";
         String dbPassword = "SP";
 
