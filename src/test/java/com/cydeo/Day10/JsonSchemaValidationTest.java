@@ -18,7 +18,7 @@ public class JsonSchemaValidationTest extends SpartanAuthTestBase {
             given()
                     .accept(ContentType.JSON)
                     .and()
-                    .pathParam("id",15)
+                    .pathParam("id",20)
                     .and()
                     .auth().basic("admin","admin")
             .when()
